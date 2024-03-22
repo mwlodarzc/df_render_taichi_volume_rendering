@@ -1,8 +1,8 @@
-#Taichi Example: Volume Rendering
-##Introduction
+# Taichi Example: Volume Rendering
+## Introduction
 This article implements a simple medical image volume rendering, achieving both maximum and minimum density projection algorithms. Projections can be performed from three different directions. Future enhancements may include adding blend modes and transfer functions.
 
-##Structure (Optional)
+## Structure (Optional)
 ```
 ├── data
 │   └── FullHead.mhd
