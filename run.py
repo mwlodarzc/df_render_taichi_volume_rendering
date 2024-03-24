@@ -11,7 +11,7 @@ def setup_venv():
         pip_executable = "pip.exe"
     else:
         venv_bin_path = os.path.join(venv_dir, 'bin')
-        python_executable = "python3"
+        python_executable = "python"
         pip_executable = "pip"
 
     if not os.path.exists(venv_dir):
